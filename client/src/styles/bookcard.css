@@ -1,0 +1,57 @@
+/* styles/bookcard.css */
+.book-card {
+  width: 220px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: visible; /* IMPORTANT: allow popup to show outside card */
+}
+
+/* book image */
+.book-image {
+  width: 100%;
+  height: 320px;            /* adjust to your desired height */
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.25s ease;
+}
+
+/* subtle image scale on hover (only scales the image) */
+.book-card:hover .book-image {
+  transform: scale(1.03);
+}
+
+/* popup card */
+.book-popup {
+  position: absolute;
+  bottom: calc(100% + 12px); /* sits above the card */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  width: 240px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+  z-index: 9999;            /* ensure it floats above everything */
+}
+
+/* popup image */
+.book-popup img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.popup-info h4 { margin: 10px 0 6px; }
+
+.popup-info button {
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.popup-info button:hover { background: #e55a00; }

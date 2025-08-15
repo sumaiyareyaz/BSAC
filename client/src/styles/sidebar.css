@@ -1,0 +1,26 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background-color: #222;
+  min-width: 200px;
+}
+
+.sidebar-block {
+  background-color: #333;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sidebar-block a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: block;
+}
+
+.sidebar-block:hover {
+  background-color: #444;
+}

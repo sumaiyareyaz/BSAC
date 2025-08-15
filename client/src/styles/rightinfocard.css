@@ -1,0 +1,6 @@
+.right-info-card { background:#0f1724; color:#e6eef6; padding:16px; border-radius:8px; border:1px solid rgba(255,255,255,0.04); }
+.right-info-card h4 { margin:0 0 8px 0; font-size:16px; }
+.right-info-card p { margin:0; color:#cbd5e1; font-size:13px; line-height:1.4; }
+.right-info-card {
+  width: 100%; 
+}

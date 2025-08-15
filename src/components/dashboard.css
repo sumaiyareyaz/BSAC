@@ -1,0 +1,42 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  background-color: #f0cc76;
+}
+
+.sidebar {
+  background-color: #c9b75f;
+  color: white;
+  padding: 20px;
+  width: 220px;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.sidebar a:hover {
+  color: #ff9800;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
